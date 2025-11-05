@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+}
+
+#allWrap {
+    width: 80%;
+    margin: auto;
+}
+
+#headWrap {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.headArea {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.areaText {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.areaText:hover {
+    font-weight: bold;
+}
+
+#mainWrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainArea {
+    text-align: center;
+}
+
+.mainImg {
+    width: 80%;
+}

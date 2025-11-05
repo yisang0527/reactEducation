@@ -1,0 +1,46 @@
+#wrap {
+    width: 80%;
+    margin: 300px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+h1 {
+    color: #ccc;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.input-feild {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.input-feild label {
+    color: #ccc;
+}
+
+.input-feild input {
+    float: right;
+}
+
+p {
+    color: #ccc;
+    margin-bottom: 5px;
+}
+
+p:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#add {
+    color: #ccc;
+    text-decoration: none;
+}
+
+#add:hover {
+    font-weight: bold;
+}
