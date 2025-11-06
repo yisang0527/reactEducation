@@ -1,8 +1,20 @@
 // ScheduleList.jsx
 
-export default function ScheduleList() {
-    return(
-        <>
-        </>
+export default function ScheduleList({ items }) {
+    if (items.length === 0)
+        return <p>등록된 일정이 없습니다.</p>;
+
+    return (
+        <ul style={{ padding: 0 }}>
+            {
+                items.map(
+                    ({ id, time, text }) => (
+                        <li key={id}>
+                            <strong>{time} - {text}</strong>
+                        </li>
+                    )
+                )
+            }
+        </ul>
     );
 }
