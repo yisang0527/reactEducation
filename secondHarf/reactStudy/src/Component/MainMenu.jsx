@@ -17,6 +17,10 @@ export default function MainMenu() {
             <Link to="/productBuy/*" className='menu'>장바구니</Link>
             <Link to="/effect1" className='menu'>Effect 살펴보기</Link>
             <Link to="/fetch" className='menu'>Fetch 살펴보기</Link>
+            <Link to="/map1" className='menu'>map 출력</Link>
+            <Link to="/map2" className='menu'>map 출력2</Link>
+            <Link to="/users" className='menu'>유저들</Link>
+            <Link to="/todo" className='menu'>TodoList</Link>
         </div>
     );
 }

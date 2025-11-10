@@ -1,4 +1,5 @@
 // TestFetch.jsx
+import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 export default function TestFetch() {
@@ -14,6 +15,8 @@ export default function TestFetch() {
 
     return (
         <>
+            <Link to="/" className="home">HOME</Link>
+
             <h2>데이터 출력</h2>
             <ul>
                 {

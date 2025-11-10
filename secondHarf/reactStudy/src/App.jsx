@@ -13,6 +13,10 @@ import BoardMng from './Component/study2/BoardMng'
 import Buyer from './Component/study3/Buyer'
 import TestEffect from './Component/study3/TestEffect'
 import TestFetch from './Component/study3/TestFetch'
+import DataList from './Component/study4/DataList'
+import DataList2 from './Component/study4/DataList2'
+import UserInfo from './Component/study4/UserInfo'
+import TodoList from './Component/study4/TodoList'
 
 function App() {
   return (
@@ -30,6 +34,9 @@ function App() {
         <Route path='/productBuy/*' element={<Buyer />} />
         <Route path='/effect1' element={<TestEffect />} />
         <Route path='/fetch' element={<TestFetch />} />
+        <Route path='/map1' element={<DataList />} />
+        <Route path='/map2' element={<DataList2 />} />
+        <Route path='/todo' element={<TodoList />} />
       </Routes>
     </Router>
   )
